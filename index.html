@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Age Calculator</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+ 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+ 
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <h1>Age Calculator</h1>
+
+  <label for="gender">Select your gender:</label>
+<select id="gender" required>
+  <option value="" disabled selected>Choose...</option>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+</select>
+
+
+  <form id="ageForm">
+    <label for="birthdate">Enter your birthdate:</label>
+    <input type="text" id="birthdate" placeholder="Select your birthdate" readonly>
+    <button type="submit">Calculate Age</button>
+  </form>
+
+  <div id="result"></div>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/luxon/build/global/luxon.min.js"></script>
+
+
+
+
+
+
+
+  <script src="index.js"></script>
+  <footer class="footer">
+  <p>🚀 Made with ❤️ by <strong>Abdelkhalek Mammeri </strong> — Age Calculator Web App © 2025</p>
+</footer>
+
+
+</body>
+</html>
